@@ -1,9 +1,9 @@
-##Spark tools
-A project consisting of helper classes for those who spend lots of time with Spark.
+## Spark tools
+Helper classes for those who spend lots of time with Spark.
 
 Currently supports both Spark 2.0 / Scala 2.11 as well as Spark 1.6 / Scala 2.10.
 
-###Getting the library
+### Getting the library
 Add this to your `build.sbt`:
 
 ```scala
@@ -12,7 +12,7 @@ resolvers += "jitpack" at "https://jitpack.io"
 libraryDependencies += "com.github.bepcyc" %% "spark-tools" % "0.1.2"
 ```
 
-###Using
+### Using
 
 ```scala
   def addTable(df: DataFrame) = {
